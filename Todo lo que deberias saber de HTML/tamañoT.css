@@ -1,0 +1,39 @@
+/** ENCABEZADOS**/
+#Titulo{
+    font-size: 3.6em;
+}
+h1{
+    font-size: 3.11em;
+}
+.contenido,#objetivo{ 
+    font-size:3em;  
+}
+.subtitulo{
+    font-size: 2.62em;
+}
+.sumario{
+    font-size: 3.13em;
+}
+.entradilla{
+    font-size: 2.54em;
+}
+.subentradilla{
+    font-size: 1.54em;
+}
+#introduccion{
+    font-size: 1.25em;
+}
+li{ 
+    font-size:1.15em;
+}
+article li{
+    font-size: 18px;
+    padding-bottom: 12px;
+}
+article ul{
+    line-height: 23px;
+}
+
+
+
+/**RELACIONADO CON LAS LISTAS**/

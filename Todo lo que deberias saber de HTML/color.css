@@ -1,0 +1,43 @@
+
+body{    
+    color:#364054;
+    background-color: #f5f5f5;
+}
+#Titulo{
+    color:white;
+}
+
+.contenido,#objetivo{
+    color:#132743;  
+}
+.subtitulo,.sumario{
+    color:#14274e;
+}
+#imagenes_hover h1{
+    color:black;
+}
+article li{
+    color:#3a3a3a;
+}
+/**DISEÑO IMAGENES HOVER**/
+#imagenes_hover{
+    background-color: #eee;
+}
+.item{
+    background-color: #fff;
+}
+.item_text{
+    color:black;
+}
+
+/**DISEÑO FOOTER**/
+
+#titulo_footer{
+    color:#3a3a3a;
+}
+
+/**HOSTING CONTENIDO**/
+#Hosting_contenido,#Diseño_contenido{
+    background-color:#fff;
+    
+}

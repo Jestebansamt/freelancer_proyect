@@ -1,0 +1,44 @@
+#Menu{
+    margin-top: 0px;
+    position:fixed;
+    width:100%;
+    background-color:#083c5c;
+}
+#Menu ul, #Menu ol{
+    list-style: none;
+    display:block;
+    margin-top:0px;
+}
+#estilom{   
+    margin:auto;
+}
+#estilom li a  {
+    text-decoration: none;
+    background-color:#083c5c;
+    color:white;
+    padding:0.7em 1.5em;
+    display:block;
+}
+#estilom > li{
+    float:left;
+}
+#estilom li a:hover{
+    background-color:#434343;
+}
+#estilom li ul{
+   
+    padding:0px;
+    display:none;
+    position:absolute;
+    width:9.2em;
+    
+}
+
+#estilom li:hover >ul{
+    display:block;
+}
+
+
+
+
+
