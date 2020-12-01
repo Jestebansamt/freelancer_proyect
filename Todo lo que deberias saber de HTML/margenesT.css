@@ -9,12 +9,7 @@ body{
     margin-top:200px;
     text-align: center;
 }
-#titulo_imagen{
-    margin-top: 0px;
-    margin-left:30%;
-    height:540px;
-    width:70%;
-}
+
 
 .subtitulo{
     text-align:center;
@@ -46,11 +41,10 @@ body{
 }
 
 .contenido{
-    margin-top:120px;
-    margin-left: 8%;
+    margin-top:20px;
 }
 #imagenes_hover .contenido{
-    margin-left: 11.5%;
+    margin-left: 0px;
     margin-bottom: 0px;
 }
 .lista{
@@ -68,7 +62,7 @@ body{
 #sobreposicion{
     position:relative;
 }
-#imagen_fondotitulo,#Titulo,#Menu,#titulo_imagen{
+#imagen_fondotitulo,#Titulo,#Menu,#titulo_imagen,#imagen_titulocontacto,#imagen_tituloHosting,#imagen_tituloHtml,#imagen_tituloDiseño{
     position:absolute;
 }
 #imagen-fondotitulo{
@@ -115,7 +109,7 @@ body{
 
 /**HOSTINGER**/
 #Hosting_contenido,#Diseño_contenido{
-    margin-top: 550px;
+    margin-top: 50px;
     padding-top: 10px ;
     box-shadow:12px 29px 81px 0px rgba(0,0,0,0.75);
 }
@@ -138,4 +132,22 @@ body{
     width: 50%;
 }
 
-/**DISEÑO**/
+/**CONTACTO**/
+#contacto_imagen{
+    position: static; 
+}
+#contacto_titulo,.contacto_subtitulo{
+    position: relative;
+}
+
+#contacto_titulo{    
+    margin-top: 0px;
+    padding-top: 90px;
+    text-align: center; 
+}
+.contacto_subtitulo{
+    margin-top: 0px;
+    text-align: center;
+}
+
+

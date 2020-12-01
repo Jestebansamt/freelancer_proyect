@@ -1,12 +1,21 @@
 /** ENCABEZADOS**/
-#Titulo{
+
+/**#conto_titulo{
+    font-size: 4.5em;
+}**/
+.contacto_subtitulo{
+    font-size:2.62em
+}
+
+#Titulo,#contacto_titulo{
     font-size: 3.6em;
 }
 h1{
     font-size: 3.11em;
 }
-.contenido,#objetivo{ 
+.contenido,#objetivo{
     font-size:3em;  
+    text-align: center;
 }
 .subtitulo{
     font-size: 2.62em;
@@ -27,7 +36,7 @@ li{
     font-size:1.15em;
 }
 article li{
-    font-size: 18px;
+    font-size:19px;
     padding-bottom: 12px;
 }
 article ul{

@@ -41,3 +41,8 @@ article li{
     background-color:#fff;
     
 }
+
+/**CONTACTO**/
+#contacto_titulo,.contacto_subtitulo{
+    color:#fff;
+}
