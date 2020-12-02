@@ -1,0 +1,13 @@
+.subtitulo,.sumario,.entradilla,.contenido,#objetivo,#Titulo, #imagenes_hover h1,#contacto_titulo,.contacto_subtitulo{
+    font-weight: normal;
+}
+#footer,#Menu,.entradilla,.subentradilla{
+    font-family: "Trebuchet MS";
+}
+
+article li{
+    font-family:"Trebuchet MS";
+    list-style: none;
+    font-weight: normal;
+}
+

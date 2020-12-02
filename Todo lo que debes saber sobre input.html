@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="imagenes_contenido.css" rel="stylesheet">
+        <link href="imagenes.css" rel="stylesheet"/>
+        <link href="color.css" rel="stylesheet"/>
+        <link href="tamañoT.css" rel="stylesheet"/>
+        <link href="margenesT.css" rel="stylesheet"/>
+        <link href="estiloT.css" rel="stylesheet"/>
+        <link href="menu.css" rel="stylesheet"/>
+        <title>Todo lo que deberias saber sobre Input</title>
+    </head>
+
+    <body>
+		<header class="Tituloos">
+			<div id=Menu>
+				<ul id="estilom">
+					<li><a href="inicio">Inicio</li></a>
+		
+					<li><a href="contacto.html">Contacto</a></li>
+		
+					<li><a href="Todo lo que deberias saber de HTML.html">Html y CSS</a>
+						
+						<ul>
+							<li><a href="Todo lo que debes saber sobre el hosting o alojamiento de tu pagina web.html">Hosting</a></li>
+							<li><a href="Todo lo que necesitas saber para tener un buen diseño.html">Diseño</a></li>
+							<li><a href="Todo lo que debes saber sobre input.html">Input</a></li>
+						</ul>	
+					</li>
+		
+				</ul>
+			</div>	
+		</header>
+
+		<div id="sobreposicion">
+			<h1 id="Titulo">Todo lo que deberias saber sobre: <br> input</h1>
+			<img src="https://www.logaster.com.es/blog/wp-content/uploads/2019/01/Background-5.jpg" id="imagen_fondotitulo" alt="">
+			<img src="imagenes/titulo_input.png" id="titulo_imagen" alt="">
+		</div>
+		<br>
+
+        <article id="Input_contenido">
+            <h2 class="subtitulo">Todo lo que debes saber sobre input <em>pero en una tabla</em></h2>
+			<table>
+				<thead>
+					<tr>
+						<th>Nombre</th>
+						<th>Escrito en codigo</th>
+						<th>Uso</th>
+						<th>Visualizacion</th>
+						<th>Atributos</th>
+						<th>Visualizacion con atributos</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Name</td>
+						<td>Es un atributo.</td>
+						<td>Para  mostrar texto y Nombre del campo para envio.</td>
+						<td>Normalmente solo el programador ve el nombre del cuadro de texto.</td>
+						<td></td>
+						<td></td>
+					</tr>
+		
+					<tr>
+						<td>Type</td>
+						<td>Es un atributo.</td>
+						<td>Para especificar el tipo de cuadro que se visualizara.</td>
+						<td>Normalmente solo el programador ve el nombre del cuadro de texto.</td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Cuadros de texto</td>
+						<td>input type="text" name="Elquesedesee"</td>
+						<td>Para mostrar cuadros de texto...</td>
+						<td><input type="text" name="Cuadrodetexto"></td>
+						<td>Maxlength ( max de letras). Size (Maximo de espacio que se puede ocupar).</td>
+						<td><input type="text" name="Cuadrodetextoconatributo" maxlength="2" size="3px"></td>
+					</tr>
+					<tr>
+						<td>Checkbox</td>
+						<td>input type="Checkbox" name="Checkbox"</td>
+						<td>Para genera listas con check</td>
+						<td><input type="Checkbox" name="Checkbox"></td>
+						<td>checked (marca la opcion por defecto). Value (informacion que debera ser enviada en caso de que se marque la casilla)</td>
+						<td><input type="Checkbox" name="Checkbox2" checked="true" value="esta opcion es correcta"></td>
+					</tr>
+					<tr>
+						<td>Casilla de opcion radio</td>
+						<td>input type="radio" name="radioo"</td>
+						<td>Generar listas con check redondas</td>
+						<td><input type="radio" name="radioo"></td>
+						<td>Los mismos que checkbox</td>
+						<td><input type="radio" name="radio" checked="true"></td>
+					</tr>
+					<tr>
+						<td>Campos de texto enmascarado</td>
+						<td>input type="password" name="paswword"</td>
+						<td>Muestra campos de texto a modo de clave</td>
+						<td><input type="password" name="password"></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Botones</td>
+						<td>input type="button" name="boton" </td>
+						<td>Para generar botones con texto que pueden redirigir a otras paginas.</td>
+						<td><input type="button" name="boton"></td>
+						<td>Value (texto dentro del boton). Entre muchisimas otras</td>
+						<td><input type="button" name="boton" value="Esto es un boton"></td>
+					</tr>	
+				</tbody>
+			</table>
+		</article>
+
+		<footer id="footer">
+			<div id="pie_footer">
+				<div class=container-piefooter>			
+						<p id="titulo_footer">Copyright 2020 © Todos los derechos reservados</p>										
+				</div>			
+			</div>
+		</footer
+    </body>
+</html>

@@ -1,0 +1,153 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+#Titulo{
+    width:500px;
+    left:3.5%;
+    margin-top:200px;
+    text-align: center;
+}
+
+
+.subtitulo{
+    text-align:center;
+    margin-bottom: 100px;
+}
+#introduccion{
+    text-align: justify;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+#objetivo,.subtitulo{
+    text-align:center; 
+    margin-top:0px;
+}
+#objetivo{
+    margin:0px;
+    padding-top:550px;
+}
+.lista,#contenido{
+    margin-left: 4.25%;
+    margin-right: 12.25%;
+}
+.sumario{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.contenido{
+    margin-top:20px;
+}
+#imagenes_hover .contenido{
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+.lista{
+    text-align:justify;
+}
+#imagenes_hover h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.subentradilla{
+    line-height: 30px;
+}
+/**SOBREPOSICION IMAGEN & TEXTO TITULO**/
+
+#sobreposicion{
+    position:relative;
+}
+#imagen_fondotitulo,#Titulo,#Menu,#titulo_imagen,#imagen_titulocontacto,#imagen_tituloHosting,#imagen_tituloHtml,#imagen_tituloDiseño{
+    position:absolute;
+}
+#imagen-fondotitulo{
+    z-index:1;
+}
+#Titulo,#titulo_imagen{
+    z-index:2;
+}
+#Menu{
+    z-index:3;
+}
+
+/**DISEÑO FOOTER**/
+
+#pie_footer{
+    text-align: center;
+    position:relative;
+    padding-bottom:10px;
+    padding-top:10px;
+    width: 100%;
+}
+#pie_footerhosting,#pie_footerdiseño{
+    margin-top: 100px;
+    text-align: center;
+    position:relative;
+    padding-bottom:10px;
+    padding-top:10px;
+    width: 100%;
+}
+#pie_footerhtml{
+    text-align: center;
+    position:relative;
+    padding-bottom:10px;
+    padding-top:10px;
+    width: 100%;
+}
+
+#titulo_footer{
+    text-align: center;
+    position:relative;
+    margin:0px;
+    width: 100%;
+}
+
+/**HOSTINGER**/
+#Hosting_contenido,#Diseño_contenido{
+    margin-top: 50px;
+    padding-top: 10px ;
+    box-shadow:12px 29px 81px 0px rgba(0,0,0,0.75);
+}
+#Hosting_contenido,#Diseño_contenido{
+    max-width: 900px;
+    margin-left: auto !important;
+    margin-right: auto !important;    
+}
+#Hosting_contenido ul,#Diseño_contenido ul{
+    display:block;
+    position:relative;
+    margin-left: 5px;
+    margin-right: 35px;
+}
+#Hosting_contenido li, #Diseño_contenido li{
+    margin-left: 0px;
+}
+
+#menu_contenido{
+    width: 50%;
+}
+
+/**CONTACTO**/
+#contacto_imagen{
+    position: static; 
+}
+#contacto_titulo,.contacto_subtitulo{
+    position: relative;
+}
+
+#contacto_titulo{    
+    margin-top: 0px;
+    padding-top: 90px;
+    text-align: center; 
+}
+.contacto_subtitulo{
+    margin-top: 0px;
+    text-align: center;
+}
+
+
