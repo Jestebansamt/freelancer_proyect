@@ -7,14 +7,17 @@
 #imagen_titulocontacto{
     margin:0%;
     width: 100%;
-    height:300px;
+    height:270px;
     border:none;    
+    opacity:0.6;
 }
-#imagen_tituloHosting,#imagen_tituloDiseño{
-    margin:0%;
+#imagen_tituloHosting,#imagen_tituloDiseño,#imagen_tituloHtml{
+    display: block;
+    margin:auto;
     width: 100%;
-    height:250px;
+    height:230px;
     border:none;  
+    opacity:0.8;
 }
 #imagen_tituloHtml{
     margin:0%;
@@ -104,59 +107,57 @@
 
 /**IMAGENES CONTACTO**/
 
-#parallax{
+#parallax_Hosting,#parallax_Diseño,#parallax_Html,#parallax_Contacto{
     width: 100%;
-    height: 66vh;
-    background-image: url(imagenes/contacto.jpg);
-    background-position: center;
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    display:flex;
-    
-}
-#parallax_Hosting,#parallax_Diseño,#parallax_Html{
-    width: 100%;
-    height: 75vh;
+    height: 100vh;
     background-image: url(imagenes/titulo_hosting.jpg);
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     display:flex;
-    
+    justify-content: center; 
 }
 #parallax_Diseño{
-    height: 75vh !important;
-    background-image: url(imagenes/titulo_diseño.jpg);
-    
+    background-image: url(imagenes/titulo_diseño.jpg); 
 }
 #parallax_Html{
-    height: 69vh !important;
     background-image: url(imagenes/titulo_imagen.jpg);  
 }
-
+#parallax_Contacto{
+    background-image: url(imagenes/contacto.jpg);
+}
+#parallax_separacion{
+    width: 100%;
+    height: 30vh;
+    background-image: url(imagenes/frase.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display:flex;
+    justify-content: center; 
+    margin: 0px;
+}
 /**Hover contacto**/
 #hover_contacto{
-    margin: 0px;
-    padding:0px;
+    margin-left: auto !important;
+    margin-right: auto !important;
     box-sizing: border-box;
     font-family: monospace;
     width:100%;
-    height: 100vh;
+    height: 50vh;
     background-color:#f5f5f5;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow:12px 29px 81px 0px rgba(0,0,0,0.75);
+    margin-top: 0px;  
 }
 #hover_box{
     width:100%;
-    height: 80vh;
+    height: 50vh;
     text-align: center;
     overflow: hidden;
     position: relative;
-    margin: 1.5%;
+    margin: 0%;
 }
 #hover_box img{
     width: 100%;
@@ -167,23 +168,46 @@
 #hover_box .hover_titulo{
     width:0%;
     height:80vh;
-    background-color: rgba(56,53,53,0.568);
+    background-color: rgba(56,53,53,0.868);
     position:absolute;
     display:flex;
     top:0;
     justify-content: center;
-    align-items: center;
+    padding-top: 15%;
     overflow: hidden;
     transition: .4s all ;
 }
 
 .hover_titulo h1{
-    color: #eee;
-    text-shadow: 1px 1px 1px black;
-    font-size: 2.5em;
+    color: #f5f5f5;
+    font-size: 2.3em;
+    line-height: 55px;
    
 }
 
 #hover_box:hover .hover_titulo{
     width: 100%;
+}
+/**CONTACTO**/
+#flecha_icono{
+    height: 20px;
+    padding-top: 700px;
+    position: absolute;
+    margin-right:auto;
+}
+#imagenes_contacto1{
+    float: right;
+    height: 200px;
+    margin-top:6%; 
+}
+#imagenes_contacto2{
+    float: left;
+    height: 250px;
+    margin-top: 6%;
+    
+}
+#imagenes_contacto3{
+    float: right;
+    height: 230px;
+    margin-top:1%;
 }

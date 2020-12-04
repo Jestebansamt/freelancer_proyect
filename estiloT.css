@@ -1,7 +1,7 @@
-.subtitulo,.sumario,.entradilla,.contenido,#objetivo,#Titulo, #imagenes_hover h1,#contacto_titulo,.contacto_subtitulo{
+.subtitulo,.sumario,.entradilla,.contenido,#objetivo,#Titulo, #imagenes_hover h1,#contacto_titulo,.contacto_subtitulo,.hover_titulo,#titulo_contacto{
     font-weight: normal;
 }
-#footer,#Menu,.entradilla,.subentradilla{
+#footer,#Menu,.entradilla,.subentradilla,.hover_titulo,#titulo_contacto{
     font-family: "Trebuchet MS";
 }
 
@@ -10,4 +10,3 @@ article li{
     list-style: none;
     font-weight: normal;
 }
-

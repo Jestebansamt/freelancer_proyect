@@ -14,6 +14,7 @@ body{
 .subtitulo{
     text-align:center;
     margin-bottom: 100px;
+    
 }
 #introduccion{
     text-align: justify;
@@ -49,6 +50,13 @@ body{
 }
 .lista{
     text-align:justify;
+    margin-bottom: 50px;
+}
+.lista_contenido{
+    text-align:justify;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #imagenes_hover h1{
     text-align: center;
@@ -59,9 +67,7 @@ body{
 }
 /**SOBREPOSICION IMAGEN & TEXTO TITULO**/
 
-#sobreposicion{
-    position:relative;
-}
+
 #imagen_fondotitulo,#Titulo,#Menu,#titulo_imagen,#imagen_titulocontacto,#imagen_tituloHosting,#imagen_tituloHtml,#imagen_tituloDiseño{
     position:absolute;
 }
@@ -74,6 +80,7 @@ body{
 #Menu{
     z-index:3;
 }
+
 
 /**DISEÑO FOOTER**/
 
@@ -108,7 +115,7 @@ body{
 }
 
 /**HOSTINGER**/
-#Hosting_contenido,#Diseño_contenido{
+#Hosting_contenido,#Diseño_contenido,#contacto_Contenido{
     margin-top: 50px;
     padding-top: 10px ;
     box-shadow:12px 29px 81px 0px rgba(0,0,0,0.75);
@@ -117,6 +124,11 @@ body{
     max-width: 900px;
     margin-left: auto !important;
     margin-right: auto !important;    
+}
+#contacto_Contenido{
+    max-width: 1200px;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 #Hosting_contenido ul,#Diseño_contenido ul{
     display:block;
@@ -136,18 +148,52 @@ body{
 #contacto_imagen{
     position: static; 
 }
-#contacto_titulo,.contacto_subtitulo{
-    position: relative;
-}
+
 
 #contacto_titulo{    
-    margin-top: 0px;
-    padding-top: 90px;
-    text-align: center; 
+    padding-top: 50px;
+    text-align: center;
+    position: relative;
+    line-height: 80px;
 }
-.contacto_subtitulo{
-    margin-top: 0px;
+#subcontenido_contacto{   
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contacto_Contenido > p{
     text-align: center;
 }
+
+#li_contactoQuien_soy{
+    padding-right: 235px;
+}
+#li_contactoQue_hago{
+    padding-left: 320px;
+    text-align: justify;  
+}
+#li_contactoComo_trabajo{
+    padding-right:245px;
+}
+
+
+#Que_hago >.subentradilla, #Quien_soy >.subentradilla, #Como_trabajo >.subentradilla{
+    text-align: center;
+    font-size: 2.5em;
+}
+
+
+#titulo_contacto,#subtitulo_contacto{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+#subtitulo_contacto{
+    margin-top: 10px !important;
+    color: black;
+}
+
+
 
 

@@ -4,9 +4,22 @@
     font-size: 4.5em;
 }**/
 .contacto_subtitulo{
-    font-size:2.62em
+    font-size:.62em
+}
+#contacto_Contenido >.lista> .entradilla{
+    font-size: 3.5em;
 }
 
+.lista_contenido  li{
+    font-size: 22px;
+    line-height: 30px;
+}
+.hover_titulo{
+    font-size: .82em;
+}
+#subtitulo_contacto{
+    font-size: 1.25em;
+}
 #Titulo,#contacto_titulo{
     font-size: 3.6em;
 }
