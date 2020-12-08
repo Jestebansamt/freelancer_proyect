@@ -65,10 +65,16 @@ body{
 .subentradilla{
     line-height: 30px;
 }
+
+/**HTML **/
+#CSS{
+    padding-left: 220px;
+    text-align: justify;  
+}
 /**SOBREPOSICION IMAGEN & TEXTO TITULO**/
 
 
-#imagen_fondotitulo,#Titulo,#Menu,#titulo_imagen,#imagen_titulocontacto,#imagen_tituloHosting,#imagen_tituloHtml,#imagen_tituloDiseño{
+#imagen_fondotitulo,#Titulo,#Menu,#titulo_imagen,#imagen_titulocontacto,#imagen_tituloHosting,#imagen_tituloHtml,#imagen_tituloDiseño,#imagen_tituloIndex{
     position:absolute;
 }
 #imagen-fondotitulo{
@@ -115,7 +121,7 @@ body{
 }
 
 /**HOSTINGER**/
-#Hosting_contenido,#Diseño_contenido,#contacto_Contenido{
+#Hosting_contenido,#Diseño_contenido,#contacto_Contenido,#Index_contenido{
     margin-top: 50px;
     padding-top: 10px ;
     box-shadow:12px 29px 81px 0px rgba(0,0,0,0.75);
@@ -194,6 +200,19 @@ body{
     color: black;
 }
 
+/**Index**/
+#Index_contenido {
+    max-width: 1200px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+#video_index{
+        position: relative;
+        padding-bottom: 300px ;
+        padding-top: 50px; 
+        height: 0; 
+        text-align: center;          
+}
 
 
 

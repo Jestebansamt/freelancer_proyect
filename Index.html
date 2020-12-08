@@ -9,19 +9,65 @@
         <link href="margenesT.css" rel="stylesheet"/>
         <link href="estiloT.css" rel="stylesheet"/>
         <link href="menu.css" rel="stylesheet"/>
+        <link rel="icon" href="imagenes/icono.png">
         <title>Inicio</title>
     </head>
     <body>
-        <h2 class="entrada" id="objetivo"> Objetivo </h2>
-        <p id="introduccion">El proposito de este sitio web es mostrar cuales son los conceptos ,que a mi juicio como programador de HTML y CSS, 
-		son los mas importantes en la planificacion, creacion y publicacion de una pagina web.
-		<br>
-		Adicionalmente crear un entorno donde las personas puedan contribuir y complementar la pagina web en base a su experiencia, y al final
-		hacer una red de apoyo a programadores que van iniciando y programadores experimentados, en todos los lenguajes existentes, no es trabajo
-		facil, pero es un pequeño aporte que me gustaria brindarle a la comunidad
-		<br>
-		Adicional al hecho de que soy de que estoy practicando mis habilidades al crear un nuevo sitio web como este, puedo brindarle el espacio para
-		muchos desarrolladores de software que quieran practicar su HTML, CSS, JS o lo que sea en esta pagina.	
-		</p>
+        <header class="Tituloos">
+			<div id=Menu>
+				<ul id="estilom">
+					<li><a href="Index.html">Inicio</li></a>
+		
+					<li><a href="contacto.html">Contacto</a></li>
+		
+					<li><a href="Todo lo que deberias saber de HTML.html">Html y CSS</a>
+						
+						<ul>
+							<li><a href="Todo lo que debes saber sobre el hosting o alojamiento de tu pagina web.html">Hosting</a></li>
+							<li><a href="Todo lo que necesitas saber para tener un buen diseño.html">Diseño</a></li>
+							<li><a href="Todo lo que debes saber sobre input.html">Input</a></li>
+						</ul>	
+					</li>
+		
+				</ul>
+			</div>	
+        </header>
+        
+        <div id="parallax_Index">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARsAAACyCAMAAABFl5uBAAAAA1BMVEUAAACnej3aAAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAG8GxXgAARZXJP8AAAAASUVORK5CYII=" id="imagen_tituloIndex" alt="">
+            <h1 id="contacto_titulo">¿Para que sirve un sitio web? </h1>
+            <a href=#video_index  id="flecha_icono"><img src="imagenes/flecha_icono.png" ></a>
+        </div>
+
+        <article id=Index_contenido>
+
+
+
+            <div  id="video_index">
+                <center>
+                    <br>            <br>            
+                    <h1 class="entradilla">"Todos necesitamos tener una pagina web personal"</h1>
+                    <br>            <br>
+                </center>
+                <iframe width="1120" height="630" src="https://www.youtube.com/embed/Xtu4X4sRvXI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <h2 class="entrada" id="objetivo"> Video </h2>
+            <p id="introduccion">El video que acabas de ver es uno de los mas completos que vi en cuanto a las razones que debes tener para hacer tu propia pagina web
+                No solamente por que seas un gerente de una compañia multimillonaria necesitas tener una pagina web, las paginas web son herramientas que tu puedes utilizar 
+                para que la informacion que quieras la puedan ver millones de personas. El video no es mio el enlace al video original <a href="https://www.youtube.com/watch?v=Xtu4X4sRvXI">aqui</a>
+            </p>
+            <br><br>
+        </article>
+
+        <footer id="footer">
+            <div id="pie_footerhosting">
+                <div class=container-piefooter>			
+                        <p id="titulo_footer">Copyright 2020 © Todos los derechos reservados</p>										
+                </div>			
+            </div>
+        </footer>
+        
+        
     </body>
 </html>
