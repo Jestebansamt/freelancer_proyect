@@ -114,13 +114,13 @@
     padding:15px;
     }
     .barra:hover{
-        width: 90%;
+        width: 70%;
         background: rgba(5, 33, 51, 0.98);
     }
     .barra:hover li{
         border-top:1px solid #03121b ;
         padding:15px;
-        width:90%;
+        width:89%;
         height: 100%;
     }
     .barra:hover #ultimoelemento{
