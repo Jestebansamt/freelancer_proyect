@@ -6,11 +6,15 @@
 .contacto_subtitulo{
     font-size:.62em
 }
-#contacto_Contenido >.lista> .entradilla{
+#contacto_Contenido >.lista> .entradilla,#Index_contenido >#titulo_Video >.entradilla{
     font-size: 3.5em;
 }
 
 .lista_contenido  li{
+    font-size: 22px;
+    line-height: 30px;
+}
+#Index_contenido li{
     font-size: 22px;
     line-height: 30px;
 }
@@ -59,4 +63,57 @@ article ul{
 
 
 
-/**RELACIONADO CON LAS LISTAS**/
+
+@media (min-width:365px) and (max-width:768px){
+    #contacto_titulo{
+    font-size: 95px;
+    letter-spacing: 5px;
+    line-height: 100px !important;
+    }
+
+    #tituloIndex>#contacto_titulo{
+    font-size:55px;
+    letter-spacing: 2px;
+    line-height: 70px !important;
+    }
+    #tituloContacto>#contacto_titulo{
+        font-size: 45px;
+        letter-spacing: 0px;
+        line-height: 60px !important;
+    }
+    #titulo_html>#contacto_titulo,#titulo_diseño>#contacto_titulo,#titulo_hosting>#contacto_titulo{
+        font-size: 55px;
+        letter-spacing: 0px;
+        line-height: 60px !important;
+    }
+}
+
+
+@media (min-width:0px) and (max-width:561px){
+    #tituloContacto>#contacto_titulo{
+        font-size: 45px;
+        letter-spacing: 0px;
+        line-height: 40px !important;
+    }
+    #titulo_html>#contacto_titulo,#titulo_diseño>#contacto_titulo,#titulo_hosting>#contacto_titulo{
+        font-size: 55px;
+        letter-spacing: 0px;
+        line-height: 60px !important;
+    }
+}
+@media (min-width:0px) and (max-width:468px){
+    #tituloContacto>#contacto_titulo{
+        font-size: 40px;
+        letter-spacing: 0px;
+        line-height: 40px !important;
+    }
+}
+
+
+@media (max-width:365px){
+    #tituloIndex>#contacto_titulo{
+        font-size:45px;
+        letter-spacing: 2px;
+        line-height: 70px !important;
+        }
+}

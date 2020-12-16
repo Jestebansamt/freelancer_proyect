@@ -38,7 +38,105 @@
     display:block;
 }
 
+/**Menu responsive**/
+@media (min-width:769px) and (max-width:2560px){
+    .barra{
+        width: 0%;
+        height: 0%;
+        font-size: 0%;
+    }
+}
+@media (min-width:0px) and (max-width:768px){
+    #estilom>li{
+        width: 0px;
+        height: 0px;
+        font-size: 0px;
+    }
+  .barra {
+    font-family: 'Times New Roman', Times, serif;
+    width:10vw;
+    height:100vh;
+    background-color: rgba(56,53,53,0);
+    position:fixed;
+    top:0;
+    justify-content: center;
+    padding-top: 0%;
+    transition: .3s all ;
+    z-index: 1;
+    font-size: 0px;
+  }  
+  
+  .barra a{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center; 
+    list-style: none;
+    font-size: 0px;
+    padding:0px;
+    color:white;
+    text-decoration: none;
+    font-weight: normal;
+  }
+  .barra ul{
+    padding:0px;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;   
+}
+  .barra  li{
+    outline: 0px solid rgba(10, 73, 112,0);
+    text-align: center;
+    text-decoration: none;
+    list-style: none; 
+    padding:0px;
+    transition:all .5s;
+    width:0px;
+    height: 0px;
+  }
+  
+  .barra  h2{
+      text-align: center;
+      color:white;
+      padding:10px;
+      padding-bottom:10px;
+      font-size:0px;
+      
+  }
+  .barra img{
+      padding-top:30px ;
+      padding-left: 10px;
+  }
+  .barra:hover a{ 
+    font-size:20px !important;
+    color:white;
+    transition: all .5s;
+    transform: scale(1.15);
+    display: inline-block;
+    padding:15px;
+    }
+    .barra:hover{
+        width: 90%;
+        background: rgba(5, 33, 51, 0.98);
+    }
+    .barra:hover li{
+        border-top:1px solid #03121b ;
+        padding:15px;
+        width:90%;
+        height: 100%;
+    }
+    .barra:hover #ultimoelemento{
+        border-bottom: 1px solid #03121b;
+    }
+    .barra:hover h2{
+        padding:15px;
+        font-size: 35px;
+        transition:all .003s;
+    }
+    .barra:hover img{
+        height:0px;
+        transition:all 3s;
+    }
 
-
-
-
+ 
+  
+   
+}
