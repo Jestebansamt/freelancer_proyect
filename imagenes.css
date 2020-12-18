@@ -345,7 +345,7 @@
     #imagen_titulocontacto{
         margin:0%;
         width: 100%;
-        height:100%;
+        height:100vh;
         border:none;    
         opacity:0.6;
     }
@@ -463,7 +463,7 @@
 #imagen_titulocontacto{
     margin:0%;
     width: 100%;
-    height:100%;
+    height:100vh;
     border:none;    
     opacity:0.6;
    
@@ -471,7 +471,7 @@
 #imagen_tituloHtml{
     margin:0%;
     width: 100%;
-    height:100%;
+    height:100vh;
     border:none;    
     opacity:0.6;
    
