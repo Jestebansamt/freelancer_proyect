@@ -291,7 +291,7 @@ body{
         text-align: center;
         position: relative;
         line-height: 80px;
-        padding-top:35vh;
+        padding-top:23vh;
     }
     #titulo_html>#contacto_titulo{
         padding-top: 50px;
@@ -305,7 +305,7 @@ body{
         text-align: center;
         position: relative;
         line-height: 80px;
-        padding-top:39vh;
+        padding-top:30vh;
     }
     #li_contactoQuien_soy{
         padding-right:0px;
@@ -339,7 +339,7 @@ body{
         text-align: center;
         position: relative;
         line-height: 80px;
-        padding-top: 33vh;
+        padding-top: 20vh;
     }
 }
 @media (min-width:0px) and (max-width:364px){
@@ -348,6 +348,6 @@ body{
         text-align: center;
         position: relative;
         line-height: 80px;
-        padding-top: 33vh;
+        padding-top: 20vh;
     }
 }
