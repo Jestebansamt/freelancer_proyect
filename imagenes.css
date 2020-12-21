@@ -65,6 +65,7 @@
     margin-bottom: 50px;
     display: grid; /**numero de imagenes por columna**/
     grid-template-columns: repeat(1,1fr);
+
 }
 .item{
     cursor:pointer;
@@ -100,6 +101,7 @@
 .item:hover{
     transform:scale(1.05)
 }
+
 #imagenes_hover{
     margin-top:0px;
     padding-top: 50px;
@@ -109,7 +111,7 @@
 
 @media screen and (min-width:890px){
     #container{
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(2,1fr);
     }
 }
 
@@ -360,12 +362,16 @@
         float: none;
         height: 200px;
         margin-top: 0%;
+        display: block;
+        margin:auto;
         
     }
     #imagenes_contacto3{
         float: none;
         height: 230px;
         margin-top:0%;
+        display:block;
+        margin:auto;
     }
     #hover_box{
         width:100%;
@@ -376,7 +382,7 @@
         margin: 0%;
     }
     #hover_box .hover_titulo{
-        width:0%;
+        width:100%;
         height:80vh;
         background-color: rgba(56,53,53,0.868);
         position:absolute;
@@ -425,8 +431,8 @@
     width: 100%;
     height: 100vh;
     background-image: url(imagenes/titulo_hosting.jpg);
-    background-position: center;
-    background-size:300%;
+    background-position: center center;
+    background-size:cover;
     background-repeat:no-repeat;
     background-attachment: scroll;
     display:flex;
@@ -449,8 +455,8 @@
         width: 100%;
         height: 30vh;
         background-image: url(imagenes/frase.jpg);
-        background-position: center;
-        background-size:300%;
+        background-position: center center;
+        background-size:cover;
         background-repeat:no-repeat;
         background-attachment: scroll;
         display:flex;
@@ -490,8 +496,8 @@
     width: 100%;
     height: 100vh;
     background-image: url(imagenes/titulo_hosting.jpg);
-    background-position: center;
-    background-size:400%;
+    background-position: center center;
+    background-size:cover;
     background-repeat:no-repeat;
     background-attachment: scroll;
     display:flex;
@@ -515,11 +521,11 @@
         height: 30vh;
         background-image: url(imagenes/frase.jpg);
         background-position: center;
-        background-size:300%;
-        background-repeat:no-repeat;
+        background-size: cover;
+        background-repeat: inherit;
         background-attachment: scroll;
-        display:flex;
-        justify-content: center; 
+        display: flex;
+        justify-content: center;
         margin: 0px;
     }
 

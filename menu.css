@@ -26,12 +26,10 @@
     background-color:#434343;
 }
 #estilom li ul{
-   
     padding:0px;
     display:none;
     position:absolute;
-    width:9.2em;
-    
+    width:9.2em; 
 }
 
 #estilom li:hover >ul{
@@ -55,66 +53,70 @@
         margin: 0px;
         padding: 0px;
     }
-  .barra {
-    font-family: 'Times New Roman', Times, serif;
-    width:13vw;
-    height:10vh;
-    background-color: rgba(56,53,53,0);
-    position:fixed;
-    top:0;
-    justify-content: center;
-    padding-top: 0%;
-    transition: .3s all ;
-    z-index: 1;
-    font-size: 0px;
-  }  
+    .barra {
+        font-family: 'Times New Roman', Times, serif;
+        width:13vw;
+        height:10vh;
+        background-color: rgba(56,53,53,0);
+        position:fixed;
+        top:0;
+        justify-content: center;
+        padding-top: 0%;
+        transition: .3s all ;
+        z-index: 1;
+        font-size: 0px;
+        padding:0px;
+    }
+
+    #quitar_menu{
+        height: 0px;
+        width:0px;
+    }  
+    .barra a{
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center; 
+        list-style: none;
+        font-size: 0px;
+        padding:0px;
+        color:white;
+        text-decoration: none;
+        font-weight: normal;
+    }
+    .barra ul{
+        padding:0px;
+        text-align: center;
+        text-decoration: none;
+        list-style: none;   
+    }
+    .barra  li{
+        outline: 0px solid rgba(10, 73, 112,0);
+        text-align: center;
+        text-decoration: none;
+        list-style: none; 
+        padding:0px;
+        transition:all .5s;
+        width:0px;
+        height: 0px;
+    }
   
-  .barra a{
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center; 
-    list-style: none;
-    font-size: 0px;
-    padding:0px;
-    color:white;
-    text-decoration: none;
-    font-weight: normal;
-  }
-  .barra ul{
-    padding:0px;
-    text-align: center;
-    text-decoration: none;
-    list-style: none;   
-}
-  .barra  li{
-    outline: 0px solid rgba(10, 73, 112,0);
-    text-align: center;
-    text-decoration: none;
-    list-style: none; 
-    padding:0px;
-    transition:all .5s;
-    width:0px;
-    height: 0px;
-  }
-  
-  .barra  h2{
+    .barra  h2{
       text-align: center;
       color:white;
       padding:10px;
       padding-bottom:10px;
-      font-size:0px;
-      
-  }
-  .barra img{
-      padding-top:30px ;
-      padding-left: 10px;
-  }
-  .barra:hover a{ 
-    font-size:20px !important;
-    color:white;
-    transition: all .5s;
-    transform: scale(1.15);
-    display: inline-block;
-    padding:15px;
+      font-size:0px;   
+    }
+    .barra img{
+        padding-top:30px ;
+        padding-left: 10px;
+    }
+    .barra:hover a{ 
+        font-size:20px !important;
+        color:white;
+        transition: all .5s;
+        transform: scale(1.15);
+        display: inline-block;
+        padding:15px;
     }
     .barra:hover{
         width: 70%;
@@ -139,8 +141,16 @@
         height:0px;
         transition:all 3s;
     }
+    .barra:hover #quitar_menu{
+        height:25px;
+        width:25px;
+        transition:all .3s;
+        z-index: 1;
+        margin-left:105%;
+        float:left;
+        margin-top: -20%;
+    }
 
+    
  
-  
-   
 }
