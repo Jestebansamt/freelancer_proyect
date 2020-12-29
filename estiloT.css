@@ -1,12 +1,21 @@
-.subtitulo,.sumario,.entradilla,.contenido,#objetivo,#Titulo, #imagenes_hover h1,#contacto_titulo,.contacto_subtitulo,.hover_titulo,#titulo_contacto,#subtitulo_contacto{
-    font-weight: normal;
+.subtitulo,.entradilla,.contenido,#objetivo,#Titulo, #imagenes_hover h1,.contacto_subtitulo,.hover_titulo,#titulo_contacto,#subtitulo_contacto{
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
 }
-#footer,#Menu,.entradilla,.subentradilla,.hover_titulo,#titulo_contacto{
-    font-family: "Trebuchet MS";
+.sumario,#Menu,#contacto_titulo{
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+}
+#footer,.entradilla,.subentradilla,.hover_titulo,#titulo_contacto{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
 
 article li{
-    font-family:"Trebuchet MS";
     list-style: none;
-    font-weight: normal;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+}
+#Hosting_contenido,#Diseño_contenido{
+    font-family: 'Lato', sans-serif;
 }

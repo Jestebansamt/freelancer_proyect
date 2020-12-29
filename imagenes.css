@@ -37,13 +37,17 @@
 #imagenes_html1{
     float: right;
     height: 250px;
-    margin-top:-45%; 
+    padding-right:30px;
+    padding-left:50px;
+    padding-bottom:60px;
+    margin-top: 40px;
 }
 #imagenes_html2{
     float: left;
     height: 250px;
-    margin-top: -30%;
-    
+    margin-left: 50px;
+    margin-top: -48px;
+    padding-bottom: 60px;
 }
 
 
@@ -227,7 +231,7 @@
 #imagenes_contacto2{
     float: left;
     height: 250px;
-    margin-top: -32.5%;
+    margin-top: -32%;
     
 }
 #imagenes_contacto3{
@@ -240,7 +244,8 @@
 #imagenes_index1{
     float: right;
     height: 276px;
-    margin-top:-26%;
+    margin-top:-27%;
+    margin-right: 0px;
 } 
 
 
