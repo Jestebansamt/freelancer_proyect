@@ -44,7 +44,9 @@ body{
 }
 
 .lista  li{
-    padding-left: 0px;
+    padding-left: 10px;
+    padding-right: 10px
+    ;
 }
 
 hr{
@@ -66,7 +68,7 @@ hr{
     margin-bottom: 0px;
 }
 .lista{
-    text-align:left;
+    text-align:center;
    
 }
 .lista_contenido{
@@ -83,6 +85,7 @@ hr{
 .subentradilla{
     line-height: 30px;
 }
+
 
 /**HTML **/
 #CSS{
@@ -329,19 +332,19 @@ hr{
         padding-top:30vh;
     }
     #li_contactoQuien_soy{
-        padding-right:0px;
+        padding-right:10px;
         text-align: justify;
-        margin-left: 0px;  
+        margin-left: 10px;  
     }
     #li_contactoQue_hago{
-        padding-right: 0px;
+        padding-right: 10px;
         text-align: justify;
-        margin-left: 0px;  
+        margin-left: 10px;  
     }
     #li_contactoComo_trabajo{
-        padding-right:0px;
+        padding-right:7px;
         text-align: justify;
-        margin-left: 0px;  
+        margin-left: 10px;  
     }
     .lista  {
         display:block;
