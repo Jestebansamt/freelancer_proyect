@@ -48,7 +48,7 @@ body{
 }
 
 hr{
-    max-width: 90%;
+    max-width: 95%;
     margin-bottom:40px;
     
 }
@@ -66,13 +66,13 @@ hr{
     margin-bottom: 0px;
 }
 .lista{
-    text-align:justify;
+    text-align:left;
    
 }
 .lista_contenido{
     text-align:justify;
     margin-bottom: 50px;
-    margin-left: auto;
+    margin-left: 10px;
     margin-right: auto;
 
 }
@@ -157,8 +157,8 @@ hr{
 #Hosting_contenido ul,#Diseño_contenido ul{
     display:block;
     position:relative;
-    margin-left: 5px;
-    margin-right: 35px;
+    margin-left:10px;
+    margin-right: 10px;
 }
 #Hosting_contenido li, #Diseño_contenido li{
     margin-left: 0px;
@@ -304,8 +304,8 @@ hr{
     #li_indexVideo{
         text-align: justify;
         padding-right:0px ;
-        margin-left:10px;
-        margin-right:0px ;
+        margin-left:0px;
+        margin-right:20px ;
     }
     #contacto_titulo{    
         padding-top: 50px;
@@ -319,7 +319,7 @@ hr{
         text-align: center;
         position: relative;
         line-height: 80px;
-        padding-top:39vh;
+        padding-top:25vh;
     }
     #titulo_diseño>#contacto_titulo,#titulo_hosting>#contacto_titulo{
         padding-top: 50px;
@@ -334,7 +334,7 @@ hr{
         margin-left: 0px;  
     }
     #li_contactoQue_hago{
-        padding-left: 0px;
+        padding-right: 0px;
         text-align: justify;
         margin-left: 0px;  
     }
@@ -343,6 +343,24 @@ hr{
         text-align: justify;
         margin-left: 0px;  
     }
+    .lista  {
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 0px;  
+        padding-left: 0px ;
+    }
+
+    
+
+    .lista > #subcontenido_contacto{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 20px;
+        padding-left:0px;
+    }
+  
     
 }
 @media (min-width:700px) and (max-width:766px){

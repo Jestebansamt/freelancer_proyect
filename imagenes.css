@@ -428,6 +428,14 @@
     #flecha_icono img{
         height: 0px;
     }
+    .imagenes_Diseño,.imagenes_Hosting{
+        width: 100%;
+        display: block;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+    }
 
 
     /**IMAGENES PARALLAX**/

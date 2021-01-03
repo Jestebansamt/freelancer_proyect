@@ -1,8 +1,8 @@
-.subtitulo,.entradilla,.contenido,#objetivo,#Titulo, #imagenes_hover h1,.contacto_subtitulo,.hover_titulo,#titulo_contacto,#subtitulo_contacto{
+.subtitulo,.entradilla,.contenido,#objetivo,#Titulo, #imagenes_hover h1,.hover_titulo,#titulo_contacto,#subtitulo_contacto{
     font-weight: 400;
     font-family: 'Lato', sans-serif;
 }
-.sumario,#Menu,#contacto_titulo{
+.sumario,#Menu,#contacto_titulo,.contacto_subtitulo{
     font-weight: 300;
     font-family: 'Lato', sans-serif;
 }
