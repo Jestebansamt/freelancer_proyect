@@ -40,7 +40,7 @@
     padding-right:30px;
     padding-left:30px;
     padding-bottom:60px;
-    margin-top: 40px;
+    
 }
 #imagenes_html2{
     float: left;
@@ -226,26 +226,27 @@
 #imagenes_contacto1{
     float: right;
     height: 200px;
-    margin-top:-25%; 
+    margin-top:-21%; 
 }
 #imagenes_contacto2{
     float: left;
-    height: 250px;
-    margin-top: -32%;
+    height: 220px;
+    margin-top: -24%;
+    margin-left: 20px;
     
 }
 #imagenes_contacto3{
     float: right;
     height: 230px;
-    margin-top:-23.5%;
+    margin-top:-21.5%;
 }
 
 
 #imagenes_index1{
     float: right;
-    height: 276px;
-    margin-top:-27%;
-    margin-right: 0px;
+    height: 250px;
+    margin-top: -23%;
+    margin-right: 65px;
 } 
 
 
